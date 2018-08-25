@@ -1,0 +1,8 @@
+name: inspec-workshop
+title: InSpec CIS CentOS 6
+maintainer: Masliak Kateryna
+copyright: Masliak Kateryna
+copyright_email: masliak.kateryna@gmail.com
+license: All Rights Reserved
+summary: InSpec practicing with CIS CentOS 6 
+version: 0.1.0
