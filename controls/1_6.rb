@@ -14,3 +14,11 @@ control "cis-1-6-1-5" do
         it { should_not be_installed }
     end
 end
+control "cis-1-6-2" do
+    impact 1.0
+    title "1.6.2 Ensure SELinux is installed (Scored)"
+    desc "SELinux provides Mandatory Access Controls."
+    describe package('libselinux') do
+        it { should be_installed }
+    end
+end
